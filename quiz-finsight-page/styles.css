@@ -1,0 +1,48 @@
+:root{
+    --background-color: #19212C;
+    --font-color: #cdcfd1;
+    --pointer-color: #888;
+    --dark-color: #171a1f;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 18rem 18rem;
+    background-color: var(--dark-color);
+    margin: auto;
+    padding: 10rem;
+    width: 30rem;
+    border-radius: 3rem;
+}
+.card-1 {
+    width: 16rem;
+    height: 20rem;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border-radius: 1.35rem;
+}
+.poster-1{
+    width: 16rem;
+    height: 11rem;
+    border-radius: 1rem;
+}
+.img-label{
+    font-size: 1.10rem;
+    font-weight: 600;
+    margin: 0.90rem 0.70rem;
+} 
+.subtext{
+    font-size: 1rem;
+    margin: 0.50rem 0.70rem;
+}
+.point{
+    margin: 0.70rem 0.70rem;
+    color: var(--pointer-color);
+}
+
+.card-2{
+    width: 16rem;
+    height: 20rem;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border-radius: 1.35rem;
+}
