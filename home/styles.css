@@ -33,9 +33,12 @@
     background-color: var(--button-color);
     font-size: 1.40rem;
     font-weight: 600;
-    color: var(--Primary-color);
     border: none;
     border-radius: 0.75rem;
+}
+.start{
+    text-decoration: none;
+    color: var(--Primary-color);
 }
 .start-quiz:hover{
     background-color: var(--hover-color);
