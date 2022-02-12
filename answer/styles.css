@@ -3,6 +3,8 @@
     --font-color: #f7f7f7;
     --pointer-color: #888;
     --dark-color: #171a1f;
+    --error-color: #AF1616;
+    --success-color: #007953;
 }
 body {
     background-color: var(--dark-color);
@@ -16,31 +18,39 @@ body {
     padding: 1rem;
 }
 .title-text {
-    font-size: 1.50rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
 .question-header {
     display: flex;
     justify-content: space-between;
-    font-size: 1.10rem;
+    font-size: 1.1rem;
 }
 .question-number,
 .question-score {
     color: var(--pointer-color);
 }
 .question {
-    font-size: 1.20rem;
+    font-size: 1.2rem;
     line-height: 1.75rem;
-    padding-bottom: 1.40rem;
+    padding-bottom: 1.4rem;
 }
-.option1 {
+.option{
     width: 40rem;
     height: 3rem;
-    background-color: var(--background-color);
     border: none;
     border-radius: 15px;
-    margin: 1.30rem auto;
-    font-size: 1.30rem;
+    margin: 1.3rem auto;
+    font-size: 1.1rem;
     color: var(--font-color);
+}
+.option1 {  
+    background-color: var(--success-color);
+}
+.option2 {
+    background-color: var(--error-color);
+}
+.option3 {
+    background-color: var(--background-color);
 }
