@@ -4,14 +4,25 @@
     --pointer-color: #888;
     --dark-color: #171a1f;
 }
+body{
+    background-color: var(--dark-color);
+    font-family: sans-serif;
+}
+.title-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.30rem;
+    font-weight: bold;
+    color: var(--font-color);
+    margin: 3rem;
+}
 .grid-container{
     display: grid;
     grid-template-columns: 18rem 18rem;
-    background-color: var(--dark-color);
+    width: 36%;
     margin: auto;
-    padding: 10rem;
-    width: 30rem;
-    border-radius: 3rem;
+    padding:0rem 10rem;
 }
 .card-1 {
     width: 16rem;
@@ -38,7 +49,6 @@
     margin: 0.70rem 0.70rem;
     color: var(--pointer-color);
 }
-
 .card-2{
     width: 16rem;
     height: 20rem;
