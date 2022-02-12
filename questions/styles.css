@@ -44,3 +44,7 @@ body {
     font-size: 1.30rem;
     color: var(--font-color);
 }
+.answer{
+    text-decoration: none;
+    color: var(--font-color);
+}
