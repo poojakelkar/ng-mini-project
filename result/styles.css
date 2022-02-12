@@ -22,6 +22,15 @@ body {
     font-weight: bold;
     text-align: center;
 }
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+.question-number,
+.question-score {
+    color: var(--pointer-color);
+}
 .question {
     font-size: 1.2rem;
     line-height: 1.75rem;
@@ -37,10 +46,10 @@ body {
     color: var(--font-color);
 }
 .option1 {  
-    background-color: var(--background-color);
+    background-color: var(--success-color);
 }
 .option2 {
-    background-color: var(--success-color);
+    background-color: var(--error-color);
 }
 .option3 {
     background-color: var(--background-color);
